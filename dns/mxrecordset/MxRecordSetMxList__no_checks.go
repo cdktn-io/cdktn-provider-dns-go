@@ -15,7 +15,7 @@ func (m *jsiiProxy_MxRecordSetMxList) validateGetParameters(index *float64) erro
 	return nil
 }
 
-func (m *jsiiProxy_MxRecordSetMxList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MxRecordSetMxList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

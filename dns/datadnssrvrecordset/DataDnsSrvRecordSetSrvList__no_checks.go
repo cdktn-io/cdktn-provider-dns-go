@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataDnsSrvRecordSetSrvList) validateGetParameters(index *floa
 	return nil
 }
 
-func (d *jsiiProxy_DataDnsSrvRecordSetSrvList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataDnsSrvRecordSetSrvList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 
