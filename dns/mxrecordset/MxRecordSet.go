@@ -5,10 +5,10 @@ package mxrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/mxrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/mxrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -402,7 +402,7 @@ func NewMxRecordSet(scope constructs.Construct, id *string, config *MxRecordSetC
 	j := jsiiProxy_MxRecordSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSet",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -415,7 +415,7 @@ func NewMxRecordSet_Override(m MxRecordSet, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSet",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSet",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -532,7 +532,7 @@ func MxRecordSet_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSet",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func MxRecordSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSet",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func MxRecordSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSet",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func MxRecordSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSet",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func MxRecordSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSet",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSet",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package datadnssrvrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/datadnssrvrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/datadnssrvrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataDnsSrvRecordSetSrvList(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_DataDnsSrvRecordSetSrvList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.dataDnsSrvRecordSet.DataDnsSrvRecordSetSrvList",
+		"@cdktn/provider-dns.dataDnsSrvRecordSet.DataDnsSrvRecordSetSrvList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataDnsSrvRecordSetSrvList_Override(d DataDnsSrvRecordSetSrvList, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.dataDnsSrvRecordSet.DataDnsSrvRecordSetSrvList",
+		"@cdktn/provider-dns.dataDnsSrvRecordSet.DataDnsSrvRecordSetSrvList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

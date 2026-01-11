@@ -5,9 +5,9 @@ package srvrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/srvrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/srvrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSrvRecordSetSrvList(terraformResource cdktf.IInterpolatingParent, terraf
 	j := jsiiProxy_SrvRecordSetSrvList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.srvRecordSet.SrvRecordSetSrvList",
+		"@cdktn/provider-dns.srvRecordSet.SrvRecordSetSrvList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSrvRecordSetSrvList_Override(s SrvRecordSetSrvList, terraformResource cd
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.srvRecordSet.SrvRecordSetSrvList",
+		"@cdktn/provider-dns.srvRecordSet.SrvRecordSetSrvList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

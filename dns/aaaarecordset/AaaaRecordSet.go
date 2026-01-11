@@ -5,10 +5,10 @@ package aaaarecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/aaaarecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/aaaarecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewAaaaRecordSet(scope constructs.Construct, id *string, config *AaaaRecord
 	j := jsiiProxy_AaaaRecordSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSet",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewAaaaRecordSet_Override(a AaaaRecordSet, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSet",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSet",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -566,7 +566,7 @@ func AaaaRecordSet_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSet",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func AaaaRecordSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSet",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func AaaaRecordSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSet",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func AaaaRecordSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSet",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func AaaaRecordSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSet",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSet",
 		"tfResourceType",
 		&returns,
 	)

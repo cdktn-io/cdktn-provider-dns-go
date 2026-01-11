@@ -5,10 +5,10 @@ package cnamerecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/cnamerecord/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/cnamerecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -400,7 +400,7 @@ func NewCnameRecord(scope constructs.Construct, id *string, config *CnameRecordC
 	j := jsiiProxy_CnameRecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.cnameRecord.CnameRecord",
+		"@cdktn/provider-dns.cnameRecord.CnameRecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -413,7 +413,7 @@ func NewCnameRecord_Override(c CnameRecord, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.cnameRecord.CnameRecord",
+		"@cdktn/provider-dns.cnameRecord.CnameRecord",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -541,7 +541,7 @@ func CnameRecord_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.cnameRecord.CnameRecord",
+		"@cdktn/provider-dns.cnameRecord.CnameRecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func CnameRecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.cnameRecord.CnameRecord",
+		"@cdktn/provider-dns.cnameRecord.CnameRecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func CnameRecord_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.cnameRecord.CnameRecord",
+		"@cdktn/provider-dns.cnameRecord.CnameRecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func CnameRecord_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.cnameRecord.CnameRecord",
+		"@cdktn/provider-dns.cnameRecord.CnameRecord",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func CnameRecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-dns.cnameRecord.CnameRecord",
+		"@cdktn/provider-dns.cnameRecord.CnameRecord",
 		"tfResourceType",
 		&returns,
 	)

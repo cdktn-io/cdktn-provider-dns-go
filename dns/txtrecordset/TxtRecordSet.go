@@ -5,10 +5,10 @@ package txtrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/txtrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/txtrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewTxtRecordSet(scope constructs.Construct, id *string, config *TxtRecordSe
 	j := jsiiProxy_TxtRecordSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.txtRecordSet.TxtRecordSet",
+		"@cdktn/provider-dns.txtRecordSet.TxtRecordSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewTxtRecordSet_Override(t TxtRecordSet, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.txtRecordSet.TxtRecordSet",
+		"@cdktn/provider-dns.txtRecordSet.TxtRecordSet",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -542,7 +542,7 @@ func TxtRecordSet_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.txtRecordSet.TxtRecordSet",
+		"@cdktn/provider-dns.txtRecordSet.TxtRecordSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func TxtRecordSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.txtRecordSet.TxtRecordSet",
+		"@cdktn/provider-dns.txtRecordSet.TxtRecordSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func TxtRecordSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.txtRecordSet.TxtRecordSet",
+		"@cdktn/provider-dns.txtRecordSet.TxtRecordSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func TxtRecordSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.txtRecordSet.TxtRecordSet",
+		"@cdktn/provider-dns.txtRecordSet.TxtRecordSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func TxtRecordSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-dns.txtRecordSet.TxtRecordSet",
+		"@cdktn/provider-dns.txtRecordSet.TxtRecordSet",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,10 +5,10 @@ package nsrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/nsrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/nsrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -400,7 +400,7 @@ func NewNsRecordSet(scope constructs.Construct, id *string, config *NsRecordSetC
 	j := jsiiProxy_NsRecordSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.nsRecordSet.NsRecordSet",
+		"@cdktn/provider-dns.nsRecordSet.NsRecordSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -413,7 +413,7 @@ func NewNsRecordSet_Override(n NsRecordSet, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.nsRecordSet.NsRecordSet",
+		"@cdktn/provider-dns.nsRecordSet.NsRecordSet",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -541,7 +541,7 @@ func NsRecordSet_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.nsRecordSet.NsRecordSet",
+		"@cdktn/provider-dns.nsRecordSet.NsRecordSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func NsRecordSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.nsRecordSet.NsRecordSet",
+		"@cdktn/provider-dns.nsRecordSet.NsRecordSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func NsRecordSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.nsRecordSet.NsRecordSet",
+		"@cdktn/provider-dns.nsRecordSet.NsRecordSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func NsRecordSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-dns.nsRecordSet.NsRecordSet",
+		"@cdktn/provider-dns.nsRecordSet.NsRecordSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func NsRecordSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-dns.nsRecordSet.NsRecordSet",
+		"@cdktn/provider-dns.nsRecordSet.NsRecordSet",
 		"tfResourceType",
 		&returns,
 	)

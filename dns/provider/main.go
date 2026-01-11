@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-dns.provider.DnsProvider",
+		"@cdktn/provider-dns.provider.DnsProvider",
 		reflect.TypeOf((*DnsProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -47,15 +47,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-dns.provider.DnsProviderConfig",
+		"@cdktn/provider-dns.provider.DnsProviderConfig",
 		reflect.TypeOf((*DnsProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-dns.provider.DnsProviderUpdate",
+		"@cdktn/provider-dns.provider.DnsProviderUpdate",
 		reflect.TypeOf((*DnsProviderUpdate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-dns.provider.DnsProviderUpdateGssapi",
+		"@cdktn/provider-dns.provider.DnsProviderUpdateGssapi",
 		reflect.TypeOf((*DnsProviderUpdateGssapi)(nil)).Elem(),
 	)
 }

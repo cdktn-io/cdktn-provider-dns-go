@@ -5,9 +5,9 @@ package mxrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/mxrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/mxrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewMxRecordSetMxOutputReference(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_MxRecordSetMxOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSetMxOutputReference",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSetMxOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewMxRecordSetMxOutputReference_Override(m MxRecordSetMxOutputReference, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSetMxOutputReference",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSetMxOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

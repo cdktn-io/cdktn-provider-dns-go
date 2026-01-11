@@ -5,9 +5,9 @@ package datadnsmxrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/datadnsmxrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/datadnsmxrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataDnsMxRecordSetMxList(terraformResource cdktf.IInterpolatingParent, t
 	j := jsiiProxy_DataDnsMxRecordSetMxList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.dataDnsMxRecordSet.DataDnsMxRecordSetMxList",
+		"@cdktn/provider-dns.dataDnsMxRecordSet.DataDnsMxRecordSetMxList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataDnsMxRecordSetMxList_Override(d DataDnsMxRecordSetMxList, terraformR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.dataDnsMxRecordSet.DataDnsMxRecordSetMxList",
+		"@cdktn/provider-dns.dataDnsMxRecordSet.DataDnsMxRecordSetMxList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

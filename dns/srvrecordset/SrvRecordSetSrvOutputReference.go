@@ -5,9 +5,9 @@ package srvrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/srvrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/srvrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -251,7 +251,7 @@ func NewSrvRecordSetSrvOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_SrvRecordSetSrvOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.srvRecordSet.SrvRecordSetSrvOutputReference",
+		"@cdktn/provider-dns.srvRecordSet.SrvRecordSetSrvOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -263,7 +263,7 @@ func NewSrvRecordSetSrvOutputReference_Override(s SrvRecordSetSrvOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.srvRecordSet.SrvRecordSetSrvOutputReference",
+		"@cdktn/provider-dns.srvRecordSet.SrvRecordSetSrvOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

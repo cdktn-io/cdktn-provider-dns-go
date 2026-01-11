@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSet",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSet",
 		reflect.TypeOf((*MxRecordSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSetConfig",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSetConfig",
 		reflect.TypeOf((*MxRecordSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSetMx",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSetMx",
 		reflect.TypeOf((*MxRecordSetMx)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSetMxList",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSetMxList",
 		reflect.TypeOf((*MxRecordSetMxList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSetMxOutputReference",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSetMxOutputReference",
 		reflect.TypeOf((*MxRecordSetMxOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

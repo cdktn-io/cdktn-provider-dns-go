@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSet",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSet",
 		reflect.TypeOf((*AaaaRecordSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-dns.aaaaRecordSet.AaaaRecordSetConfig",
+		"@cdktn/provider-dns.aaaaRecordSet.AaaaRecordSetConfig",
 		reflect.TypeOf((*AaaaRecordSetConfig)(nil)).Elem(),
 	)
 }

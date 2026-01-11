@@ -5,9 +5,9 @@ package mxrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
 
-	"github.com/cdktf/cdktf-provider-dns-go/dns/v9/mxrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/mxrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMxRecordSetMxList(terraformResource cdktf.IInterpolatingParent, terrafor
 	j := jsiiProxy_MxRecordSetMxList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSetMxList",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSetMxList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMxRecordSetMxList_Override(m MxRecordSetMxList, terraformResource cdktf.
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-dns.mxRecordSet.MxRecordSetMxList",
+		"@cdktn/provider-dns.mxRecordSet.MxRecordSetMxList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)
