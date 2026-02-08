@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package srvrecordset
@@ -26,19 +26,19 @@ type SrvRecordSetConfig struct {
 	//
 	// The `zone` argument will be appended to this value to create the full record path.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/srv_record_set#name SrvRecordSet#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/srv_record_set#name SrvRecordSet#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// DNS zone the record set belongs to. It must be an FQDN, that is, include the trailing dot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/srv_record_set#zone SrvRecordSet#zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/srv_record_set#zone SrvRecordSet#zone}
 	Zone *string `field:"required" json:"zone" yaml:"zone"`
 	// srv block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/srv_record_set#srv SrvRecordSet#srv}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/srv_record_set#srv SrvRecordSet#srv}
 	Srv interface{} `field:"optional" json:"srv" yaml:"srv"`
 	// The TTL of the record set. Defaults to `3600`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/srv_record_set#ttl SrvRecordSet#ttl}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/srv_record_set#ttl SrvRecordSet#ttl}
 	Ttl *float64 `field:"optional" json:"ttl" yaml:"ttl"`
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package txtrecordset
@@ -24,21 +24,21 @@ type TxtRecordSetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The text records this record set will be set to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/txt_record_set#txt TxtRecordSet#txt}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/txt_record_set#txt TxtRecordSet#txt}
 	Txt *[]*string `field:"required" json:"txt" yaml:"txt"`
 	// DNS zone the record set belongs to. It must be an FQDN, that is, include the trailing dot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/txt_record_set#zone TxtRecordSet#zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/txt_record_set#zone TxtRecordSet#zone}
 	Zone *string `field:"required" json:"zone" yaml:"zone"`
 	// The name of the record set.
 	//
 	// The `zone` argument will be appended to this value to create the full record path.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/txt_record_set#name TxtRecordSet#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/txt_record_set#name TxtRecordSet#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The TTL of the record set. Defaults to `3600`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/txt_record_set#ttl TxtRecordSet#ttl}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/txt_record_set#ttl TxtRecordSet#ttl}
 	Ttl *float64 `field:"optional" json:"ttl" yaml:"ttl"`
 }
 

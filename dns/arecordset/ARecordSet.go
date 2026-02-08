@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/arecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/arecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/a_record_set dns_a_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/a_record_set dns_a_record_set}.
 type ARecordSet interface {
 	cdktf.TerraformResource
 	Addresses() *[]*string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_ARecordSet) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/a_record_set dns_a_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/a_record_set dns_a_record_set} Resource.
 func NewARecordSet(scope constructs.Construct, id *string, config *ARecordSetConfig) ARecordSet {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewARecordSet(scope constructs.Construct, id *string, config *ARecordSetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/a_record_set dns_a_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/a_record_set dns_a_record_set} Resource.
 func NewARecordSet_Override(a ARecordSet, scope constructs.Construct, id *string, config *ARecordSetConfig) {
 	_init_.Initialize()
 

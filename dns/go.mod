@@ -1,4 +1,4 @@
-module github.com/cdktn-io/cdktn-provider-dns-go/dns/v9
+module github.com/cdktn-io/cdktn-provider-dns-go/dns/v10
 
 go 1.23
 

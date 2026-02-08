@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datadnstxtrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/datadnstxtrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/datadnstxtrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/data-sources/txt_record_set dns_txt_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/data-sources/txt_record_set dns_txt_record_set}.
 type DataDnsTxtRecordSet interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -297,7 +297,7 @@ func (j *jsiiProxy_DataDnsTxtRecordSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/data-sources/txt_record_set dns_txt_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/data-sources/txt_record_set dns_txt_record_set} Data Source.
 func NewDataDnsTxtRecordSet(scope constructs.Construct, id *string, config *DataDnsTxtRecordSetConfig) DataDnsTxtRecordSet {
 	_init_.Initialize()
 
@@ -315,7 +315,7 @@ func NewDataDnsTxtRecordSet(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/data-sources/txt_record_set dns_txt_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/data-sources/txt_record_set dns_txt_record_set} Data Source.
 func NewDataDnsTxtRecordSet_Override(d DataDnsTxtRecordSet, scope constructs.Construct, id *string, config *DataDnsTxtRecordSetConfig) {
 	_init_.Initialize()
 

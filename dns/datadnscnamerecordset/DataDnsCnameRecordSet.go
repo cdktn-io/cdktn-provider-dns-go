@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datadnscnamerecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/datadnscnamerecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/datadnscnamerecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/data-sources/cname_record_set dns_cname_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/data-sources/cname_record_set dns_cname_record_set}.
 type DataDnsCnameRecordSet interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -286,7 +286,7 @@ func (j *jsiiProxy_DataDnsCnameRecordSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/data-sources/cname_record_set dns_cname_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/data-sources/cname_record_set dns_cname_record_set} Data Source.
 func NewDataDnsCnameRecordSet(scope constructs.Construct, id *string, config *DataDnsCnameRecordSetConfig) DataDnsCnameRecordSet {
 	_init_.Initialize()
 
@@ -304,7 +304,7 @@ func NewDataDnsCnameRecordSet(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/data-sources/cname_record_set dns_cname_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/data-sources/cname_record_set dns_cname_record_set} Data Source.
 func NewDataDnsCnameRecordSet_Override(d DataDnsCnameRecordSet, scope constructs.Construct, id *string, config *DataDnsCnameRecordSetConfig) {
 	_init_.Initialize()
 

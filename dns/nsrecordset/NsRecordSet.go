@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nsrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v9/nsrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/nsrecordset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/ns_record_set dns_ns_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/ns_record_set dns_ns_record_set}.
 type NsRecordSet interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_NsRecordSet) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/ns_record_set dns_ns_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/ns_record_set dns_ns_record_set} Resource.
 func NewNsRecordSet(scope constructs.Construct, id *string, config *NsRecordSetConfig) NsRecordSet {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewNsRecordSet(scope constructs.Construct, id *string, config *NsRecordSetC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.4.3/docs/resources/ns_record_set dns_ns_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/ns_record_set dns_ns_record_set} Resource.
 func NewNsRecordSet_Override(n NsRecordSet, scope constructs.Construct, id *string, config *NsRecordSetConfig) {
 	_init_.Initialize()
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 // Package jsii contains the functionaility needed for jsii packages to
@@ -16,7 +16,7 @@ import (
 	cdktf      "github.com/hashicorp/terraform-cdk-go/cdktf/jsii"
 )
 
-//go:embed cdktn-provider-dns-9.1.0.tgz
+//go:embed cdktn-provider-dns-10.0.0.tgz
 var tarball []byte
 
 // Initialize loads the necessary packages in the @jsii/kernel to support the enclosing module.
@@ -27,5 +27,5 @@ func Initialize() {
 	constructs.Initialize()
 
 	// Load this library into the kernel
-	_jsii_.Load("@cdktn/provider-dns", "9.1.0", tarball)
+	_jsii_.Load("@cdktn/provider-dns", "10.0.0", tarball)
 }
