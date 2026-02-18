@@ -5,14 +5,14 @@ package srvrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-dns-go/dns/v11/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v10/srvrecordset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-dns-go/dns/v11/srvrecordset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SrvRecordSetSrvList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type SrvRecordSetSrvList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type SrvRecordSetSrvList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) SrvRecordSetSrvOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type SrvRecordSetSrvList interface {
 
 // The jsii proxy struct for SrvRecordSetSrvList
 type jsiiProxy_SrvRecordSetSrvList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_SrvRecordSetSrvList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_SrvRecordSetSrvList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SrvRecordSetSrvList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SrvRecordSetSrvList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_SrvRecordSetSrvList) WrapsSet() *bool {
 }
 
 
-func NewSrvRecordSetSrvList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SrvRecordSetSrvList {
+func NewSrvRecordSetSrvList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SrvRecordSetSrvList {
 	_init_.Initialize()
 
 	if err := validateNewSrvRecordSetSrvListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewSrvRecordSetSrvList(terraformResource cdktf.IInterpolatingParent, terraf
 	return &j
 }
 
-func NewSrvRecordSetSrvList_Override(s SrvRecordSetSrvList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewSrvRecordSetSrvList_Override(s SrvRecordSetSrvList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_SrvRecordSetSrvList)SetTerraformAttribute(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SrvRecordSetSrvList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SrvRecordSetSrvList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_SrvRecordSetSrvList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (s *jsiiProxy_SrvRecordSetSrvList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_SrvRecordSetSrvList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -231,7 +231,7 @@ func (s *jsiiProxy_SrvRecordSetSrvList) Get(index *float64) SrvRecordSetSrvOutpu
 	return returns
 }
 
-func (s *jsiiProxy_SrvRecordSetSrvList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SrvRecordSetSrvList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

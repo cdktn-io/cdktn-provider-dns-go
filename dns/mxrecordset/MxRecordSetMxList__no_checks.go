@@ -15,7 +15,7 @@ func (m *jsiiProxy_MxRecordSetMxList) validateGetParameters(index *float64) erro
 	return nil
 }
 
-func (m *jsiiProxy_MxRecordSetMxList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MxRecordSetMxList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MxRecordSetMxList) validateSetTerraformAttributeParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_MxRecordSetMxList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MxRecordSetMxList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MxRecordSetMxList) validateSetWrapsSetParameters(val *bool) e
 	return nil
 }
 
-func validateNewMxRecordSetMxListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMxRecordSetMxListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

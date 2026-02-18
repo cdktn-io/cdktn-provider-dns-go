@@ -47,7 +47,7 @@ func (s *jsiiProxy_SrvRecordSetSrvOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (s *jsiiProxy_SrvRecordSetSrvOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SrvRecordSetSrvOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SrvRecordSetSrvOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_SrvRecordSetSrvOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SrvRecordSetSrvOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SrvRecordSetSrvOutputReference) validateSetWeightParameters(v
 	return nil
 }
 
-func validateNewSrvRecordSetSrvOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSrvRecordSetSrvOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

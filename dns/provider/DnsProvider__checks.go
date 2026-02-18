@@ -11,7 +11,7 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DnsProvider) validateAddOverrideParameters(path *string, value interface{}) error {
@@ -76,7 +76,7 @@ func validateDnsProvider_IsTerraformProviderParameters(x interface{}) error {
 
 func (j *jsiiProxy_DnsProvider) validateSetUpdateParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DnsProviderUpdate:
 		val := val.(*[]*DnsProviderUpdate)
@@ -95,7 +95,7 @@ func (j *jsiiProxy_DnsProvider) validateSetUpdateParameters(val interface{}) err
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*DnsProviderUpdate; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*DnsProviderUpdate; received %#v (a %T)", val, val)
 		}
 	}
 

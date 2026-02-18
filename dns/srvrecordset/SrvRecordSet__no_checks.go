@@ -103,7 +103,7 @@ func (j *jsiiProxy_SrvRecordSet) validateSetCountParameters(val interface{}) err
 	return nil
 }
 
-func (j *jsiiProxy_SrvRecordSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SrvRecordSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataDnsAaaaRecordSet) validateSetHostParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DataDnsAaaaRecordSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataDnsAaaaRecordSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

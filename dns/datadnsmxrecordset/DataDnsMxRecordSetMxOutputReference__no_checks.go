@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataDnsMxRecordSetMxOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (d *jsiiProxy_DataDnsMxRecordSetMxOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataDnsMxRecordSetMxOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataDnsMxRecordSetMxOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataDnsMxRecordSetMxOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataDnsMxRecordSetMxOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataDnsMxRecordSetMxOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataDnsMxRecordSetMxOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

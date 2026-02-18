@@ -99,7 +99,7 @@ func (j *jsiiProxy_PtrRecord) validateSetCountParameters(val interface{}) error 
 	return nil
 }
 
-func (j *jsiiProxy_PtrRecord) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PtrRecord) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

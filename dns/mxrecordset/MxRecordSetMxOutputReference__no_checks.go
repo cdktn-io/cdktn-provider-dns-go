@@ -47,7 +47,7 @@ func (m *jsiiProxy_MxRecordSetMxOutputReference) validateInterpolationForAttribu
 	return nil
 }
 
-func (m *jsiiProxy_MxRecordSetMxOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MxRecordSetMxOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MxRecordSetMxOutputReference) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_MxRecordSetMxOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MxRecordSetMxOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMxRecordSetMxOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMxRecordSetMxOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

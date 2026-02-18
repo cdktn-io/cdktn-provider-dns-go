@@ -15,7 +15,7 @@ func (s *jsiiProxy_SrvRecordSetSrvList) validateGetParameters(index *float64) er
 	return nil
 }
 
-func (s *jsiiProxy_SrvRecordSetSrvList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SrvRecordSetSrvList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SrvRecordSetSrvList) validateSetTerraformAttributeParameters(
 	return nil
 }
 
-func (j *jsiiProxy_SrvRecordSetSrvList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SrvRecordSetSrvList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SrvRecordSetSrvList) validateSetWrapsSetParameters(val *bool)
 	return nil
 }
 
-func validateNewSrvRecordSetSrvListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSrvRecordSetSrvListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 
