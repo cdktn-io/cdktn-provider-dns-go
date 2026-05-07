@@ -65,6 +65,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "ttl", GoGetter: "Ttl"},
 			_jsii_.MemberProperty{JsiiProperty: "ttlInput", GoGetter: "TtlInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zone", GoGetter: "Zone"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneInput", GoGetter: "ZoneInput"},
 		},

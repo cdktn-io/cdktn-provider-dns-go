@@ -64,6 +64,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ttlInput", GoGetter: "TtlInput"},
 			_jsii_.MemberProperty{JsiiProperty: "txt", GoGetter: "Txt"},
 			_jsii_.MemberProperty{JsiiProperty: "txtInput", GoGetter: "TxtInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zone", GoGetter: "Zone"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneInput", GoGetter: "ZoneInput"},
 		},
