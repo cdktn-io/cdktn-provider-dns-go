@@ -24,7 +24,7 @@ type DataDnsPtrRecordSetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// IP address to look up.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/data-sources/ptr_record_set#ip_address DataDnsPtrRecordSet#ip_address}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs/data-sources/ptr_record_set#ip_address DataDnsPtrRecordSet#ip_address}
 	IpAddress *string `field:"required" json:"ipAddress" yaml:"ipAddress"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/txt_record_set dns_txt_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs/resources/txt_record_set dns_txt_record_set}.
 type TxtRecordSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_TxtRecordSet) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/txt_record_set dns_txt_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs/resources/txt_record_set dns_txt_record_set} Resource.
 func NewTxtRecordSet(scope constructs.Construct, id *string, config *TxtRecordSetConfig) TxtRecordSet {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewTxtRecordSet(scope constructs.Construct, id *string, config *TxtRecordSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/txt_record_set dns_txt_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs/resources/txt_record_set dns_txt_record_set} Resource.
 func NewTxtRecordSet_Override(t TxtRecordSet, scope constructs.Construct, id *string, config *TxtRecordSetConfig) {
 	_init_.Initialize()
 

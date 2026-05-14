@@ -24,7 +24,7 @@ type DataDnsMxRecordSetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Domain to look up.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/data-sources/mx_record_set#domain DataDnsMxRecordSet#domain}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs/data-sources/mx_record_set#domain DataDnsMxRecordSet#domain}
 	Domain *string `field:"required" json:"domain" yaml:"domain"`
 }
 

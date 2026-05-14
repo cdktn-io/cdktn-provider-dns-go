@@ -1,6 +1,6 @@
-# CDKTN Go bindings for hashicorp/dns provider version 3.5.0
+# CDKTN Go bindings for hashicorp/dns provider version 3.6.0
 
-This repo builds and publishes the [Terraform dns provider](https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs) bindings for [CDK Terrain](https://cdktn.io).
+This repo builds and publishes the [Terraform dns provider](https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs) bindings for [CDK Terrain](https://cdktn.io).
 
 ## Go Package
 
@@ -23,7 +23,7 @@ This project is explicitly not tracking the Terraform dns provider version 1:1. 
 These are the upstream dependencies:
 
 * [CDK Terrain](https://cdktn.io) - Last official release
-* [Terraform dns provider](https://registry.terraform.io/providers/hashicorp/dns/3.5.0)
+* [Terraform dns provider](https://registry.terraform.io/providers/hashicorp/dns/3.6.0)
 * [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.

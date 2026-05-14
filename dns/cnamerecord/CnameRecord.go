@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/cname_record dns_cname_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs/resources/cname_record dns_cname_record}.
 type CnameRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_CnameRecord) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/cname_record dns_cname_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs/resources/cname_record dns_cname_record} Resource.
 func NewCnameRecord(scope constructs.Construct, id *string, config *CnameRecordConfig) CnameRecord {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewCnameRecord(scope constructs.Construct, id *string, config *CnameRecordC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.5.0/docs/resources/cname_record dns_cname_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.0/docs/resources/cname_record dns_cname_record} Resource.
 func NewCnameRecord_Override(c CnameRecord, scope constructs.Construct, id *string, config *CnameRecordConfig) {
 	_init_.Initialize()
 
