@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataDnsARecordSet) validateOverrideLogicalIdParameters(newLog
 	return nil
 }
 
+func (d *jsiiProxy_DataDnsARecordSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataDnsARecordSet_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MxRecordSet) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (m *jsiiProxy_MxRecordSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MxRecordSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MxRecordSet) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func (m *jsiiProxy_MxRecordSet) validatePutMxParameters(value interface{}) error {
+	return nil
+}
+
+func (m *jsiiProxy_MxRecordSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
