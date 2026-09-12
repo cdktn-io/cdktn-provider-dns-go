@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/data-sources/mx_record_set dns_mx_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/data-sources/mx_record_set dns_mx_record_set}.
 type DataDnsMxRecordSet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataDnsMxRecordSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/data-sources/mx_record_set dns_mx_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/data-sources/mx_record_set dns_mx_record_set} Data Source.
 func NewDataDnsMxRecordSet(scope constructs.Construct, id *string, config *DataDnsMxRecordSetConfig) DataDnsMxRecordSet {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataDnsMxRecordSet(scope constructs.Construct, id *string, config *DataD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/data-sources/mx_record_set dns_mx_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/data-sources/mx_record_set dns_mx_record_set} Data Source.
 func NewDataDnsMxRecordSet_Override(d DataDnsMxRecordSet, scope constructs.Construct, id *string, config *DataDnsMxRecordSetConfig) {
 	_init_.Initialize()
 

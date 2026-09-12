@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/resources/ptr_record dns_ptr_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/resources/ptr_record dns_ptr_record}.
 type PtrRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_PtrRecord) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/resources/ptr_record dns_ptr_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/resources/ptr_record dns_ptr_record} Resource.
 func NewPtrRecord(scope constructs.Construct, id *string, config *PtrRecordConfig) PtrRecord {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewPtrRecord(scope constructs.Construct, id *string, config *PtrRecordConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/resources/ptr_record dns_ptr_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/resources/ptr_record dns_ptr_record} Resource.
 func NewPtrRecord_Override(p PtrRecord, scope constructs.Construct, id *string, config *PtrRecordConfig) {
 	_init_.Initialize()
 

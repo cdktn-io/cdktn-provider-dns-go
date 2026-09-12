@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/resources/a_record_set dns_a_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/resources/a_record_set dns_a_record_set}.
 type ARecordSet interface {
 	cdktn.TerraformResource
 	Addresses() *[]*string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_ARecordSet) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/resources/a_record_set dns_a_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/resources/a_record_set dns_a_record_set} Resource.
 func NewARecordSet(scope constructs.Construct, id *string, config *ARecordSetConfig) ARecordSet {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewARecordSet(scope constructs.Construct, id *string, config *ARecordSetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.1/docs/resources/a_record_set dns_a_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/dns/3.6.2/docs/resources/a_record_set dns_a_record_set} Resource.
 func NewARecordSet_Override(a ARecordSet, scope constructs.Construct, id *string, config *ARecordSetConfig) {
 	_init_.Initialize()
 
